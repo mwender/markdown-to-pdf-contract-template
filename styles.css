@@ -76,6 +76,12 @@ ol {
 	margin-left: 1em;
 	padding: 0 1.5em 0.5em;
 }
+ol{
+	list-style-type: lower-alpha;
+}
+li{
+	margin-bottom: 6px;
+}
 
 pre {
 	white-space: pre-wrap;
