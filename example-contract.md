@@ -1,4 +1,7 @@
 ---
+document_title: Example Contract Doc Title
+stylesheet: 
+  - ./styles.css
 pdf_options:
   format: a4
   margin: 30mm 20mm
