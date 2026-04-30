@@ -5,10 +5,10 @@ Utilize [Markdown to PDF](https://www.npmjs.com/package/md-to-pdf) to generate a
 ## Example
 
 ```
-$ md-to-pdf markdown-to-pdf.md --stylesheet styles.css --document-title="Example Document Title"
+$ md-to-pdf markdown-to-pdf.md
 ```
 
-The above command will yield `markdown-to-pdf.pdf` with `styles.css` applied and the document title set to "Example Document Title".
+The above command will yield `markdown-to-pdf.pdf`.
 
 ## Head Matter
 
@@ -16,6 +16,9 @@ Markdown to PDF supports YAML head matter. Here's the default setup I use:
 
 ```
 ---
+document_title: Example Document Title
+stylesheet:
+  - ./style.css
 pdf_options:
   format: a4
   margin: 30mm 20mm
