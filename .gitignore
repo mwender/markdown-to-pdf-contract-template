@@ -2,3 +2,6 @@
 *.pdf
 !example-contract.md
 !README.md
+
+# Local, Project Specific Styles
+additional-styles.css
